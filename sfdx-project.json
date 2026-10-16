@@ -1,12 +1,36 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app",
-      "default": true
+      "path": "gochange-core",
+      "default": true,
+      "package": "GoChange Core",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.0.NEXT"
+    },
+    {
+      "path": "gochange-sync-engine",
+      "default": false,
+      "package": "GoChange Sync Engine",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "dependencies": [
+        { "package": "GoChange Core" }
+      ]
+    },
+    {
+      "path": "gochange-experience",
+      "default": false,
+      "package": "GoChange Experience",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "dependencies": [
+        { "package": "GoChange Core" }
+      ]
     }
   ],
   "name": "Go-Change",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "67.0"
+  "sourceApiVersion": "68.0",
+  "packageAliases": {}
 }
