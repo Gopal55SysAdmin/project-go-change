@@ -1,7 +1,10 @@
 {
-  "orgName": "gopal.poddar company",
+  "orgName": "Go-Change Dev",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "language": "en_US",
+  "features": [
+    "EnableSetPasswordInApi"
+  ],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
